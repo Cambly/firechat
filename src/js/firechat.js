@@ -56,7 +56,7 @@
     this._options = options || {};
 
     // The number of historical messages to load per room.
-    this._options.numMaxMessages = this._options.numMaxMessages || 50;
+    this._options.numMaxMessages = this._options.numMaxMessages || 5000;
   }
 
   // Run Firechat in *noConflict* mode, returning the `Firechat` variable to
